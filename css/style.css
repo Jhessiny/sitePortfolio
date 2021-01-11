@@ -114,7 +114,7 @@ h1 span {
 h1 {
   position: absolute;
   top: 18%;
-  left: 50%;
+  left: 52%;
   font-size: 3rem;
 }
 
@@ -302,7 +302,7 @@ section {
 }
 
 .portfolio-item-content-info {
-  padding: 3rem 4rem 0 4rem;
+  padding: 2rem 4rem;
 }
 
 .portfolio-item-content-info * {
@@ -464,6 +464,35 @@ footer {
   }
 }
 
+@media (max-width: 1250px) {
+  .my-pic img {
+    width: 600px;
+  }
+  h1 {
+    left: 53%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .my-pic img {
+    width: 500px;
+    margin-top: 5rem;
+  }
+  h1 {
+    left: 60%;
+  }
+}
+
+@media (max-width: 970px) {
+  .my-pic img {
+    display: none;
+  }
+  h1 {
+    left: 40%;
+    transform: translateX(-50%);
+  }
+}
+
 @media (max-width: 1050px) {
   .container {
     padding: 0 4rem;
@@ -477,9 +506,33 @@ footer {
   .about-content {
     padding: 7rem 2rem;
   }
+  .portfolio-item-content {
+    flex-direction: column;
+    width: 380px;
+    min-height: 585px;
+  }
+  [data-anime="left"] {
+    margin-left: 0;
+  }
+  [data-anime="right"] {
+    margin-left: 0;
+  }
+  .portfolio-item-content-img img {
+    max-width: 380px;
+  }
+  .lines {
+    display: none;
+  }
 }
 
 @media (max-width: 700px) {
+  h1 {
+    left: 30%;
+    transform: translateX(-50%);
+  }
+  .header-content {
+    padding: 0 2rem;
+  }
   .flex-about {
     flex-direction: column;
   }
@@ -499,5 +552,14 @@ footer {
   }
   .about-content {
     padding: 3rem 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .portfolio-item-content {
+    width: 350px;
+  }
+  .portfolio-item-content-img img {
+    max-width: 350px;
   }
 }
