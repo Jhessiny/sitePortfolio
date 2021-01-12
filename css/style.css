@@ -313,6 +313,16 @@ section {
   margin-top: 1rem;
 }
 
+.btn-github i {
+  margin: 0 0.5rem 0 0;
+}
+
+.btn-github {
+  margin-top: 2.5rem;
+  line-height: 1rem;
+  display: inline-block;
+}
+
 .dark-cover {
   position: absolute;
   height: 300px;
@@ -532,7 +542,7 @@ footer {
   .portfolio-item-content {
     flex-direction: column;
     width: 380px;
-    min-height: 545px;
+    min-height: 590px;
   }
   [data-anime="left"] {
     margin-left: 0;
