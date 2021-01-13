@@ -76,6 +76,7 @@ body {
   margin: 3rem 1rem 0 0;
   transition: 0.3s;
   position: relative;
+  color: #7a7c7c;
 }
 
 .social-media-item i {
@@ -84,7 +85,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 1.1rem;
-  color: #7a7c7c;
 }
 
 .social-media-item:hover {
@@ -128,7 +128,7 @@ h1 {
 
 .header-main h2,
 .header-main p,
-.header-main button {
+.header-main a {
   margin-bottom: 2rem;
 }
 
@@ -150,6 +150,7 @@ h1 {
   transition: 0.3s;
   overflow: hidden;
   position: relative;
+  display: inline-block;
 }
 
 .btn:hover {
@@ -324,7 +325,6 @@ section {
 .btn-github {
   margin-top: 2.5rem;
   line-height: 1rem;
-  display: inline-block;
 }
 
 .dark-cover {
