@@ -741,7 +741,7 @@ footer {
     clip-path: circle(0px at 90% -10%);
     -webkit-clip-path: circle(0px at 90% -10%);
     visibility: hidden;
-    transition: all 1s ease-out;
+    transition: all 0.7s ease-out;
     pointer-events: none;
   }
 
