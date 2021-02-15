@@ -89,12 +89,12 @@ body {
     rgba(252, 70, 107, 0.5) 100%
   );
   /* background: rgb(52, 115, 110);
-  background: linear-gradient(
-    90deg,
-    rgba(52, 115, 110, 0.4) 0%,
-    rgba(105, 250, 209, 0.4) 35%,
-    rgba(0, 255, 166, 0.4) 100%
-  ); */
+    background: linear-gradient(
+      90deg,
+      rgba(52, 115, 110, 0.4) 0%,
+      rgba(105, 250, 209, 0.4) 35%,
+      rgba(0, 255, 166, 0.4) 100%
+    ); */
   width: 550px;
   height: 500px;
   border-radius: 30% 70% 70% 30%/ 60% 40% 60% 40%;
@@ -286,6 +286,9 @@ section {
 .lines-3 {
   top: 102rem;
 }
+.lines-4 {
+  top: 138rem;
+}
 
 .horizontal-line {
   border-bottom: 2px solid #02c1b1;
@@ -358,12 +361,20 @@ section {
   text-align: left;
 }
 
+.portfolio-item-content-info.first {
+  padding: 1rem 2.5rem;
+}
+
 .portfolio-item-content-info {
-  padding: 3rem 4rem;
+  padding: 2rem 3rem;
+  min-width: 305px;
 }
 
 .portfolio-item-content-info * {
   margin-top: 1rem;
+}
+.portfolio-item-content-info p {
+  line-height: 1.8rem;
 }
 
 .btn-github i {
@@ -671,7 +682,7 @@ footer {
   }
   .about h2 {
     /* width: 20rem;
-    text-align: center; */
+      text-align: center; */
     font-size: 5rem;
   }
   .about h2 .span1 {
@@ -702,7 +713,7 @@ footer {
     background: white;
     margin: 5px;
   }
-  .mobile-menu-box nav,
+
   .mobile-menu-box {
     position: relative;
   }
@@ -710,7 +721,7 @@ footer {
   .hamburger {
     position: fixed;
     cursor: pointer;
-    right: 5%;
+    right: 1rem;
     top: 2rem;
     z-index: 200;
   }
@@ -723,12 +734,13 @@ footer {
     position: fixed;
     top: 0;
     left: 0;
-    height: 110vh;
-    min-width: 110vw;
+    height: 100vh;
+    min-width: 100vw;
     background-color: #00b1a2;
     margin: 0;
     clip-path: circle(0px at 90% -10%);
     -webkit-clip-path: circle(0px at 90% -10%);
+    visibility: hidden;
     transition: all 1s ease-out;
     pointer-events: none;
   }
@@ -743,9 +755,21 @@ footer {
   .mobile-nav-items.open {
     clip-path: circle(1000px at 90% -10%);
     -webkit-clip-path: circle(1000px at 90% -10%);
+    visibility: visible;
     pointer-events: all;
   }
   html {
     scroll-behavior: auto;
+    width: 100vw;
+  }
+
+  [data-anime="left"] {
+    margin-left: 0;
+    transform: translateX(0);
+  }
+
+  [data-anime="right"] {
+    margin-left: 0;
+    transform: translateX(0);
   }
 }
