@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   background-color: #33383e;
   color: #eeeeee;
 }
@@ -31,7 +31,7 @@ body {
   position: absolute;
   right: 4rem;
   margin-top: 2rem;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   z-index: 50;
 }
 
@@ -190,7 +190,7 @@ h1 {
 }
 
 .header-main p {
-  line-height: 1.7rem;
+  line-height: 1.9rem;
 }
 
 .header-main h2 {
@@ -460,6 +460,7 @@ section {
   padding: 7rem 0 7rem 4rem;
   font-size: 1.7rem;
   transition: 1s;
+  line-height: 1.8;
 }
 
 .about-content * {
