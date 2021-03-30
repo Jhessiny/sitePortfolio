@@ -42,9 +42,13 @@ body {
 .navigation a {
   color: #eeeeee;
   text-decoration: none;
-  padding: 0.1rem 1rem;
+  padding: 0.1rem 1rem 1rem;
   text-transform: uppercase;
   z-index: 100;
+}
+
+.navigation a:hover {
+  border-bottom: 2px solid #00e1cf;
 }
 
 .mobile-nav-items {
