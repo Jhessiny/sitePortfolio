@@ -79,6 +79,7 @@ body {
   height: 500px;
   border-radius: 30% 70% 70% 30%/ 60% 40% 60% 40%;
   position: absolute;
+  transition: 0.5s;
 }
 
 .gradient-box-2 {
@@ -88,19 +89,21 @@ body {
     rgba(63, 94, 251, 0.5) 0%,
     rgba(252, 70, 107, 0.5) 100%
   );
-  /* background: rgb(52, 115, 110);
-    background: linear-gradient(
-      90deg,
-      rgba(52, 115, 110, 0.4) 0%,
-      rgba(105, 250, 209, 0.4) 35%,
-      rgba(0, 255, 166, 0.4) 100%
-    ); */
   width: 550px;
   height: 500px;
   border-radius: 30% 70% 70% 30%/ 60% 40% 60% 40%;
   position: absolute;
   top: 50px;
   left: 50px;
+  transition: 1.3s;
+}
+
+.my-pic:hover .gradient-box-1 {
+  transform: rotate(360deg);
+}
+
+.my-pic:hover .gradient-box-2 {
+  transform: rotate(-360deg);
 }
 
 .header-content {
