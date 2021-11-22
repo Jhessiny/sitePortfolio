@@ -59,6 +59,7 @@ body {
   clear: both;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 95vh;
   z-index: 1;
 }
@@ -67,7 +68,8 @@ body {
   max-width: 700px;
   border-radius: 30% 70% 70% 30%/ 60% 40% 60% 40%;
   position: relative;
-  top: 50px;
+  height: 550px;
+  //top: 50px;
   left: 20px;
 }
 
