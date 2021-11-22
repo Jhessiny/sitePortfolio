@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   background-color: #33383e;
   color: #eeeeee;
 }
@@ -42,7 +42,7 @@ body {
 .navigation a {
   color: #eeeeee;
   text-decoration: none;
-  padding: 0.1rem 1rem 1rem;
+  padding: 1.5rem;
   text-transform: uppercase;
   z-index: 100;
 }
@@ -196,7 +196,7 @@ h1 {
 }
 
 .header-main p {
-  line-height: 1.9rem;
+  line-height: 1.7;
 }
 
 .header-main h2 {
