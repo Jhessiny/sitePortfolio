@@ -764,7 +764,7 @@ footer {
   }
   .mobile-nav-items.open {
     clip-path: circle(1000px at 90% -10%);
-    -webkit-clip-path: circle(1000px at 90% -10%);
+    -webkit-clip-path: circle(10000px at 90% -10%);
     visibility: visible;
     pointer-events: all;
   }
