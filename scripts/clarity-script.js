@@ -1,4 +1,4 @@
-(function (c, l, a, r, i, t, y) {
+require("dotenv").config()(function (c, l, a, r, i, t, y) {
   c[a] =
     c[a] ||
     function () {
@@ -9,4 +9,4 @@
   t.src = "https://www.clarity.ms/tag/" + i;
   y = l.getElementsByTagName(r)[0];
   y.parentNode.insertBefore(t, y);
-})(window, document, "clarity", "script", process.env.CLARITY_ID);
+})(window, document, "clarity", "script", "ed9sdeeyny");
